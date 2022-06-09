@@ -1,0 +1,21 @@
+{
+  "name": "inmemory-api",
+  "version": "1.0.0",
+  "description": "in memory task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    “start”: “set NODE_ENV=PRODUCTION&& node -r dotenv/config index.js”,
+    “start:dev”: “set NODE_ENV=DEVELOPMENT&& nodemon -r dotenv/config index.js
+  },
+  "author": "Ben Phillips",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
