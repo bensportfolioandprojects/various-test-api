@@ -1,0 +1,58 @@
+[
+    {
+    "artist": "Red Hot Chilli Peppers",
+    "title": "Aeroplane",
+    "averageRating": 8,
+    "reviews": [
+        {
+            "reviewer": "Anonymous",
+            "rating": 10,
+            "review": "Banging tune"
+        },
+        {
+            "reviewer": "Anonymous",
+            "rating": 8,
+            "review": "Bopper"
+        },
+        {
+            "reviewer": "Anonymous",
+            "rating": 5,
+            "review": "mmm ear food"
+        },
+        {
+            "reviewer": "Anonymous",
+            "rating": 9,
+            "review": "scronch"
+        }
+        ]
+    }
+];
+
+db.music.insertOne({
+    "artist": "Red Hot Chilli Peppers",
+    "title": "Aeroplane",
+    "averageRating": 8,
+    "reviews": [
+        {
+            "reviewer": "Anonymous",
+            "rating": 10,
+            "review": "Banging tune"
+        },
+        {
+            "reviewer": "Anonymous",
+            "rating": 8,
+            "review": "Bopper"
+        },
+        {
+            "reviewer": "Anonymous",
+            "rating": 5,
+            "review": "mmm ear food"
+        },
+        {
+            "reviewer": "Anonymous",
+            "rating": 9,
+            "review": "scronch"
+        }
+        ]
+
+});
